@@ -1,0 +1,11 @@
+pip3 install Django==1.11.9
+pip3= package manager
+(py3Env) 
+When reinstalling Django==1.11.9, this is returned:
+"Allys-MacBook-Pro:my_environment allycho$ pip3 install Django==1.11.9
+Requirement already satisfied: Django==1.11.9 in /usr/local/lib/python3.7/site-packages (1.11.9)
+Requirement already satisfied: pytz in /usr/local/lib/python3.7/site-packages (from Django==1.11.9) (2019.3)"
+pip3 freeze= process where pip3 reads the versions of all installed packages in a local venv & then produces a text file with the package version for each python package specified.
+pip3 list= returns the list of packages in current environment
+cd ~/Desktop -> pip3 freeze > requirements.txt -> ls: listed the requirements.txt file
+pip3 uninstall Django -> pip3 show Django: WARNING: Package(s) not found: Django
